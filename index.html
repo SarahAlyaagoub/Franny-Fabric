@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Frannie Fabbric</title>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link href="css/blog-home.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Khand" rel="stylesheet">
+  </head>
+  
+  <body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
+		<!-- navbar -->
+		<nav class="navbar navbar-dark bg-primary navbar-fixed-top">
+			<div class="container">
+				<a class="navbar-brand pull-sm-left m-r-0 hidden-xs-down" href="#">Franny's Fabric</a>	
+			</div>	
+		</nav><!-- /navbar -->
+		<!-- jumbotron -->
+		<div class="jumbotron jumbotron-fluid bg-default" id="subscribe">
+			<div class="container text-sm-center p-t-3">
+				<h1 class="display-2">Franny's Fabrics</h1>
+				<p class="lead">Welcome to our newsletter!</p>
+				
+				<div class="btn-group m-t-2" role="group" aria-label="Basic example" >
+					<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#join"> Get your copy </button>
+				</div>
+			</div>
+		</div>		
+		<!-- /jumbotron -->
+		<!-- FORM MODAL -->
+        <div id="join" class="modal fade">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-info">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title">Get our newsletter!</h4>
+                    </div>
+                    <div class="modal-body">
+                        <!-- registration form -->						
+                        <form>
+                            <fieldset class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" id="name">
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label for="mail" class="form-control-label p-l-0">Email:</label>
+                                <input type="email" class="form-control form-control" id="mail">
+                            </fieldset>
+                            <hr class="m-b-2">
+                            <button type="submit" class="btn btn-primary btn-lg">Subscribe</button>
+                        </form><!-- /registration form -->						
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+		<div class="container p-t-2">
+            <!-- about -->
+            <div id="about" class="row">
+                <div class="col-lg-4">
+                    <table class="list-group">
+                        <div> 
+                            <h5 class="m-b-2">Content </h5>
+                                <a href="#spring" class="list-group-item"><strong>Spring has Sprung </strong></a>
+                                <a href="#fabric" class="list-group-item"><strong>New York Fabric Show </strong></a>
+                                <a href="#winter" class="list-group-item"><strong>75% off winter fabrics </strong></a>
+                        </div>
+                        <br/>
+                        <div>
+                            <h5 class="m-b-2">In Short </h5>
+                                <a href="#spring" class="list-group-item"><strong>Spring has Sprung</strong>- Lorem ipsum dolor sit adipiscing elit. Morbi commodo, ipsum sed pharetra gravida.?</a>
+                                <a href="#fabric" class="list-group-item"><strong>New York Fabric Show </strong> - Lorem ipsum dolor sit adipiscing elit.</a>
+                                <a href="#winter" class="list-group-item"><strong>75% off winter fabrics </strong>- Lorem ipsum dolor sit adipiscing elit. Morbi commodo, ipsum seda. </a>
+                        </div>
+                        <br/>	
+                        <div>
+                            <h5 class="m-b-2"> Share This </h5>
+                                <a href="#subscribe" class="list-group-item">Know someone who might be interested in this email? Why not forward it to a friend?</a>
+                        </div>
+                        <br/>
+                        <div>
+                            <h5 class="m-b-2">Unsubscribe</h5>
+                                <a href="#" class="list-group-item">
+                                    <p>Know someone who might be interested in this email? Why not forward it to a friend</p>
+                                    <button href="#" class="btn btn-primary">Unsubscribe</button>
+                                </a>    
+                        </div>
+                    </table>
+                </div>
+                <br/>
+                
+                <div class="col-lg-8 col-lg-8">
+                   <div class="card mb-4" id="spring">
+                        <div class="card-body">
+                          <h2 class="card-title">Spring has Sprung!</h2>
+                          <p class="card-text">Spring is in the air here at Franny's, and we've got the fabric to prove it! Brilliant FLORAL PRINTS paired with MUTED EARTH TONES are the hottest look for this season. If you're interested in grabbing some of winter's velvet and curduroy at half price, we've got great deals for that as well.</p>
+                          <a href="#" class="btn btn-primary">Read More &rarr;</a>
+                        </div>
+                    </div>
+                   <div class="card mb-4" id="fabric">
+                        <img class="card-img-top" src="img/winter.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                          <h2 class="card-title">All Winter fabrics now 75% off</h2>
+                          <p class="card-text">All WINTER FABRICS are now 75% off. Save an extra 5% with your NEWSLETTER DISCOUNT.</p>
+                          <a href="#" class="btn btn-primary">Read More &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="card mb-4" id="winter">
+                        <div class="card-body">
+                          <h2 class="card-title">The New York Fabric Show</h2>
+                          <p class="card-text">As many of you know, the New York Fabric show happened just last week. Frannie's was there, representing with our one of a kind patterns. We'd like to thank the following people who made it possible:</p>
+                          <a href="#" class="btn btn-primary">Read More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <hr>
+            <!-- footer -->
+            <div class="row p-y-1">	
+                <div class="col-md-7 text-md-left">
+                    <small>Frannie's Fabric is a registered trademarks of <a href="">Frannie's Fabric </a>crop</small>
+                </div>
+                <div class="col-md-5 text-md-right">
+                    <small> 123 Some Street, City, ST 99999. ph +1 4 1477 89 745</small>
+                </div>
+            </div>
+        </div>   
+    <br>
+    <br>
+    <!-- jQuery first, then bootstrap js -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
